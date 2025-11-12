@@ -1,16 +1,19 @@
-# React + Vite
+# 📚 Online Book Library
+* This is a simple online book library having a collection of books by famous authors in different categories like fiction, non-fiction, etc.
+* User can search for books based on title or author
+* Look for books collection of different categories in dedicated tabs
+* View details of a book in a separate page
+* Add new book by providing details in the form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tools
+* Frontend: React, Vite, Redux Toolkit, TailwindCSS
+* State Management: Redux Toolkit
+* Routing: React Router DOM
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Installation
+* Download the entire Web application zip from the Github repository: https://github.com/hrudendu2050/Online-Books-Library.git
+* Extract the folder
+* Open the terminal and change directory to the application folder
+* Install the node modules: npm install
+* Run the command: npm run dev
+* The application is now live on your localhost:5173, click the link to run
