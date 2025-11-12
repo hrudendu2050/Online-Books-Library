@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+.book-card {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: middle;
+    box-sizing: border-box;
+    background-color: rgb(201, 250, 201);
+    box-shadow: 2px 2px 5px darkgreen ;
+    margin: 30px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 6px 10px darkgreen;
+    z-index: 1;
+}
+
+.book-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: (255, 255, 0, 0.904);
+    text-shadow: 2px 2px 4px rgb(184, 219, 176);
+    border-radius: 8px;
+    font-size: 2em;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.book-author {
+    display: flex;
+    background-color: #a8d3b0;
+    justify-content: center;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.book-description {
+    display: flex;
+    padding: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
